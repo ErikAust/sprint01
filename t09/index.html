@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Superhero application</title>
+  <meta name="description" content="t09. Superhero application">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Superhero Form</h1>
+    <form class="main">
+        <fieldset>
+            <legend>The Superhero</legend>
+                <div>
+                    <label>Superhero Name</label>
+                    <input autofocus type="text" placeholder="Superhero name">
+                    <label>Superhero Name</label>
+                    <input type="text" placeholder="Superhero alias">
+                    <label>Age</label>
+                    <input type="number" min="1" max="999" step="1">
+                </div>
+                <div>
+                    About <textarea cols="70" rows="5" maxlength="500" name="about" placeholder="Information about the superhero, max 500 symbols"></textarea>
+                </div>
+                <div>
+                    Photo <input type="file" name="Photo" accept="image/*">
+                </div>
+        </fieldset>
+        <fieldset>
+             <legend>Powers</legend>
+                <div>
+                    <input type="checkbox"> Telekinesis
+                    <input type="checkbox"> Super strength or speed
+                    <input type="checkbox"> Shapeshifting
+                    <input type="checkbox"> Flight
+                    <input type="checkbox"> Elemental control
+                    <input type="checkbox"> Other
+                </div>
+                <div>
+                    Level of control <input type="range" min="1" max="10" value="1">
+                </div>
+        </fieldset>
+        <fieldset>
+            <legend>Origin Of Power</legend>
+                <div>
+                    <input type="radio"> Unknown
+                    <input type="radio"> Freak lab accident
+                    <input type="radio"> Chosen by an ancient wise being
+                    <input type="radio"> The superhero is not human
+                    <input type="radio"> Other
+                </div>
+                <div>
+                    <input type="reset" value="CLEAR">
+                    <input type="submit" value="SEND">
+                </div>
+        </fieldset>
+    </form>
+</body>
+</html>

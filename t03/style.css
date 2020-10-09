@@ -1,0 +1,17 @@
+.style {
+    display: flex;
+    height: 2em; 
+}
+.str {
+    width: 100vw;
+    border-color: blue;
+    border-radius: 3px;
+}
+input {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: green;
+}
+input:hover {
+    color: red;
+}
