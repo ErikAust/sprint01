@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+}
+form {
+    display: flex;
+}
+.ssss {
+    flex-grow: 2;
+}

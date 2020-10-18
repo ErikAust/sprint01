@@ -1,0 +1,9 @@
+.gaun {
+    height: 200px; 
+}
+div img {
+    height: 50px;
+}
+.gaun:hover ~ div img:nth-child(odd) {
+    opacity: 0%;
+}

@@ -1,0 +1,16 @@
+img {
+    width: 340px;
+    height: 170px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+@media print {
+    img {
+        width: 340px;
+        height: 170px;
+        float: none;
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+}

@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    height: 2em;
+    border-radius: 3px;
+}
+input:first-child {
+    border-color: blue;
+    width: 100vw;
+}
+input:last-child{
+    color: green;
+}
+input:hover {
+    color: red;
+}

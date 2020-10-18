@@ -1,0 +1,38 @@
+h1, h2 {
+    text-align: center;
+}
+.ital {
+    font-style: oblique;
+    font-weight: normal;
+}
+.main {
+    margin: 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.last {
+    border: 1px solid grey;
+    position: relative;
+    padding: 10px;
+}
+@media screen and (max-width: 1024px) {
+    .main {
+        display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main {
+        display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .main {
+        display: grid;
+      grid-template-columns: 1fr;
+    }
+  }

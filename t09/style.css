@@ -1,0 +1,30 @@
+.main {
+    border: 2px solid grey;
+    padding: 20px;
+    display: block;
+}
+.about {
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 10px;
+}
+.powers {
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 10px;
+}
+.origin {
+    border: 2px solid grey;
+    margin: 10px;
+    padding: 10px;
+}
+form div {
+    padding: 5px;
+} 
+[type=number] {
+    width: 50px;
+}
+[value="CLEAR"] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
